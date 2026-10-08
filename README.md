@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Frontend AI Auditor
 
-## Getting Started
+Frontend AI Auditor is an AI-enhanced frontend review tool that analyzes React and Next.js components for accessibility, user experience, responsiveness, and resilience. It provides structured scores, identifies specific issues, recommends fixes, and includes a streaming follow-up chat so developers can ask questions about their audit.
 
-First, run the development server:
+## Live Application
+
+https://frontend-ai-auditor-capstone.vercel.app
+
+## Repository
+
+https://github.com/MohamedKhaled07-max2/frontend-ai-auditor-capstone
+
+## Problem
+
+Frontend developers often need to review components for accessibility, responsive design, UX, and error handling. Manually checking all of these areas can be time-consuming, especially for newer developers.
+
+Frontend AI Auditor provides a quick first-pass review and explains why issues matter and how they can be improved.
+
+## Who It Is For
+
+The application is designed for:
+
+- Frontend developers
+- React and Next.js developers
+- Students learning frontend development
+- Developers performing quick accessibility and UX reviews
+
+## Why I Chose This Idea
+
+I wanted the AI integration to solve a real frontend-development problem rather than simply create a generic chatbot.
+
+The application uses AI as a code-review assistant that produces structured frontend audits and allows the developer to ask follow-up questions about the generated results.
+
+## Features
+
+- React and Next.js code input
+- AI-generated structured frontend audit
+- Overall quality score
+- Accessibility score
+- User experience score
+- Responsiveness score
+- Resilience score
+- Strengths and weaknesses
+- Recommended fixes
+- Recommended next steps
+- Streaming AI follow-up conversation
+- Stop generation during streaming
+- Smart auto-scroll
+- Jump-to-latest control
+- Responsive mobile interface
+- Accessible form controls and keyboard focus states
+- Safe error states
+
+## Technology Stack
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Vercel AI SDK
+- Google Gemini API
+- Zod
+- Streamdown
+- Vitest
+- React Testing Library
+- axe DevTools
+- Lighthouse
+- Vercel
+
+## Local Setup
+
+Clone the repository:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone https://github.com/MohamedKhaled07-max2/frontend-ai-auditor-capstone.git
+cd frontend-ai-auditor-capstone
